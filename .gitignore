@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+venv/Lib
+.idea/
+venv/
+log.html
+report.html
+output.xml
+.pabotsuitenames
+geckodriver.log
+pabot_results/

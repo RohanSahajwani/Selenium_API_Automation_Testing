@@ -1,0 +1,9 @@
+Вариант запуска,Описание,Команда
+Запуск одного файла,Запуск тестов из одного файла,robot path/to/your_test_file.robot
+Запуск нескольких файлов,Запуск тестов из нескольких файлов,robot path/to/test_file_1.robot path/to/test_file_2.robot
+Запуск тестов по метке,Запуск тестов с определенной меткой,robot -i your_tag path/to/your_test_file.robot
+Запуск с исключением метки,Запуск тестов, исключая определенную метку	robot -e your_tag path/to/your_test_file.robot
+Запуск с переменными,Запуск тестов с заданными переменными,robot -v variable:value path/to/your_test_file.robot
+Запуск с тегами,Запуск тестов по заданным тегам,robot --include tag1/tag2 path/to/your_test_file.robot
+Запуск с тегами и исключением,Запуск тестов по заданным тегам исключая другие,robot --include tag1 --exclude tag3 path/to/your_test_file.robot
+Пакетный запуск (Pabot),Параллельный запуск тестов,pabot path/to/your_test_file.robot
